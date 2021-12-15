@@ -1,0 +1,25 @@
+{
+  "name": "proj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "foo.js",
+  "scripts": {
+    "start": "node timer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Avquiet/node-proj.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Avquiet/node-proj/issues"
+  },
+  "homepage": "https://github.com/Avquiet/node-proj#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dayjs": "^1.10.7",
+    "prime": "^0.5.0"
+  }
+}
