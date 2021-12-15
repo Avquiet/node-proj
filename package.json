@@ -4,7 +4,7 @@
   "description": "",
   "main": "foo.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node timer.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Avquiet/node-proj#readme",
   "dependencies": {
     "colors": "^1.4.0",
+    "dayjs": "^1.10.7",
     "prime": "^0.5.0"
   }
 }
