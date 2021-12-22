@@ -4,8 +4,11 @@
   "description": "",
   "main": "foo.js",
   "scripts": {
-    "start": "node systemFile.js",
+    "start": "node ./Scripts/cli.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "reader": "./Scripts/cli.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +24,8 @@
     "colors": "^1.4.0",
     "dayjs": "^1.10.7",
     "fs": "^0.0.1-security",
-    "prime": "^0.5.0"
+    "inquirer": "^8.2.0",
+    "prime": "^0.5.0",
+    "yargs": "^17.3.0"
   }
 }
