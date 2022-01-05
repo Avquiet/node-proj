@@ -1,0 +1,32 @@
+{
+  "name": "proj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "foo.js",
+  "scripts": {
+    "start": "node ./messenger/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "reader": "./Scripts/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Avquiet/node-proj.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Avquiet/node-proj/issues"
+  },
+  "homepage": "https://github.com/Avquiet/node-proj#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dayjs": "^1.10.7",
+    "fs": "^0.0.1-security",
+    "inquirer": "^8.2.0",
+    "prime": "^0.5.0",
+    "socket.io": "^4.4.0",
+    "yargs": "^17.3.0"
+  }
+}
